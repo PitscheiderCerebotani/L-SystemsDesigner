@@ -1,0 +1,39 @@
+{
+    "alfabeto": {
+        "F": {
+            "avanzamento": 10,
+            "rotazione": 0,
+            "inchiostro": null,
+            "regola": "F[+F]F[-F]F"
+        },
+        "-": {
+            "avanzamento": 0,
+            "rotazione": -25.7,
+            "inchiostro": null,
+            "regola": "-"
+        },
+        "+": {
+            "avanzamento": 0,
+            "rotazione": 25.7,
+            "inchiostro": null,
+            "regola": "+"
+        },
+        "[": {
+            "avanzamento": 0,
+            "rotazione": 0,
+            "inchiostro": false,
+            "regola": "["
+        },
+        "]": {
+            "avanzamento": 0,
+            "rotazione": 0,
+            "inchiostro": true,
+            "regola": "]"
+        }
+    },
+    "assioma": "F",
+    "moltiplicatoreAvanzamento": 0.2,
+    "velocita": 0,
+    "iterazione": 5,
+    "angoloIniziale": 90
+}

@@ -1,0 +1,35 @@
+{
+    "alfabeto": {
+
+        "L": {
+            "avanzamento": 10,
+            "rotazione": 0,
+            "inchiostro": true,
+            "regola": "L+R+"
+        },
+        "R": {
+            "avanzamento": 10,
+            "rotazione": 0,
+            "inchiostro": true,
+            "regola": "-L-R"
+        },
+
+        "-": {
+            "avanzamento": 0,
+            "rotazione": -90,
+            "inchiostro": null,
+            "regola": "-"
+        },
+        "+": {
+            "avanzamento": 0,
+            "rotazione": 90,
+            "inchiostro": null,
+            "regola": "+"
+        }
+    },
+    "assioma": "L",
+    "moltiplicatoreAvanzamento": 0.8,
+    "velocita": 0,
+    "iterazione": 10,
+    "angoloIniziale": 90
+}

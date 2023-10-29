@@ -1,0 +1,27 @@
+{
+    "alfabeto": {
+        "F": {
+            "avanzamento": 10,
+            "rotazione": 0,
+            "inchiostro": true,
+            "regola": "F+F--F+F"
+        },
+        "-": {
+            "avanzamento": 0,
+            "rotazione": -60,
+            "inchiostro": null,
+            "regola": "-"
+        },
+        "+": {
+            "avanzamento": 0,
+            "rotazione": 60,
+            "inchiostro": null,
+            "regola": "+"
+        }
+    },
+    "assioma": "F--F--F",
+    "moltiplicatoreAvanzamento": 0.4,
+    "velocita": 10,
+    "iterazione": 4,
+    "angoloIniziale": 0
+}
